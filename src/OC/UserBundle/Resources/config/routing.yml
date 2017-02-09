@@ -1,0 +1,4 @@
+oc_user_admin2675:
+    resource: "@OCUserBundle/Resources/config/routing/user.yml"
+    prefix:   /admin2675
+

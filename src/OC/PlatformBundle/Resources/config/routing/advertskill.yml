@@ -1,0 +1,24 @@
+advertskill_index:
+    path:     /
+    defaults: { _controller: "OCPlatformBundle:AdvertSkill:index" }
+    methods:  GET
+
+advertskill_show:
+    path:     /{id}/show
+    defaults: { _controller: "OCPlatformBundle:AdvertSkill:show" }
+    methods:  GET
+
+advertskill_new:
+    path:     /new
+    defaults: { _controller: "OCPlatformBundle:AdvertSkill:new" }
+    methods:  [GET, POST]
+
+advertskill_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "OCPlatformBundle:AdvertSkill:edit" }
+    methods:  [GET, POST]
+
+advertskill_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "OCPlatformBundle:AdvertSkill:delete" }
+    methods:  DELETE
